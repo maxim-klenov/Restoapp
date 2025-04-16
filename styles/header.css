@@ -1,0 +1,113 @@
+header {
+    background: var(--yellow-color);
+    width: 100%;
+    min-height: 72px;
+}
+header > * {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__delivery{
+    grid-row-start: 1;
+    grid-column: 1 / -1;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-black);
+    padding-left: 5px;
+}
+.header__delivery-info{
+    letter-spacing: 0.3px;
+    font-family: var(--font-family-600);
+    font-size: var(--font-size-18);
+    line-height: var(--lh-24);
+    color: #ffffff;
+    margin-right: 12px;
+}
+.header__delivery-btn {
+    display: inline-flex;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.header__delivery-btn svg path:first-child{
+    fill: #393939;
+}
+header a {
+    line-height: var(--lh-24);
+    font-family: var(--font-family-600);
+    color: var(--color-text);
+}
+header .nav {
+    margin-right: 6px;
+}
+.header__body {
+    height: 80px;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    color: var(--color-black);
+}
+.nav__list {
+    column-gap: 24px;
+    display: flex;
+    align-items: center;
+}
+.toolbar__contact-number,
+.nav__list-link {
+    transition: all var(--transition-duration) linear;
+}
+.toolbar__contact-number:hover,
+.nav__list-link:hover {
+    color: rgb(0, 0, 0);
+}
+.header__toolbar {
+    display: flex;
+    column-gap: 64px;
+}
+.toolbar__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.toolbar__contact-number {
+    font-size: 1.1875rem;
+}
+.toolbar__contact-label {
+    color: var(--color-text);
+    font-family: var(--font-family-400);
+    font-size: var(--font-size-12);
+    line-height: var(--lh-16);
+}
+.toolbar__controls{
+    display: flex;
+    align-items: center;
+}
+.toolbar__controls-btn{
+    padding: 10px 14px;
+    border: 3px solid var(--color-black);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+.toolbar__controls-btn:first-child svg path {
+    fill: black;
+}
+.toolbar__controls-btn:first-child{
+    margin-right: 16px;
+    
+}
+.toolbar__controls-btn:last-child{
+    background-color: black;
+}
+.toolbar__controls-btn:last-child svg path {
+    fill: white;
+}

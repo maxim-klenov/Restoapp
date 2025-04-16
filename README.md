@@ -1,2 +1,2 @@
-# Restoapp
-First pet-project
+# RestoApp
+maxim - tgxzz

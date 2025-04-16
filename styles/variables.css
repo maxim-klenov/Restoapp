@@ -1,0 +1,25 @@
+:root {
+    --yellow-color: linear-gradient(90deg, #FEDD2C 0%, #F9C201 100%);
+    --bgc-color: #FFFBE6;
+    --bg-color-btn: #F4F4F4;
+    --color-yellow: #FEDD2C;
+    --color-black: #1C1C1C;
+    --color-text: #555555;
+    --color-grey: #727272;
+    --font-family-400: "Inter-regular", sans-serif;
+    --font-family-600: "Inter-semibold", sans-serif;
+    --lh-48: 3rem;
+    --lh-40: 2.5rem;
+    --lh-32: 2rem;
+    --lh-24: 1.5rem;
+    --lh-20: 1.25rem;
+    --lh-16: 1rem;
+    --font-size-40: 2.5rem;
+    --font-size-32: 2rem;
+    --font-size-24: 1.5rem;
+    --font-size-18: 1.125rem;
+    --font-size-16: 1rem;
+    --font-size-14: 0.875rem;
+    --font-size-12: 0.75rem;
+    --transition-duration: 0.1s;
+}
