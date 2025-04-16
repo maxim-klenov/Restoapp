@@ -1,5 +1,5 @@
 
-<h1> RestoApp <br> - Modern Restaurant Website </h1> 
+<h1> RestoApp - Modern Restaurant Website </h1> 
 
 <p>Simple restaurant platform featuring food delivery, menu showcase, and event management. Built with semantic HTML5 and modern CSS techniques.</p>
 
@@ -37,6 +37,10 @@ core/
 This project is licensed under the  [MIT License](LICENSE/)  - see it for details.
 
 <br> 
+
+## Appreciation
+
+To Vadim Malych from an interesting internship project https://preax.ru
 
 <div align="center">
 
