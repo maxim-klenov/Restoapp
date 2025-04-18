@@ -27,10 +27,15 @@
 
 core/
 ├── fonts/           # Inter font family
-├── icons/           # SVG assets & favicon
 ├── images/          # Optimized WebP+JPG
+│   ├── icons/       # SVG assets
 ├── styles/          # CSS modules
-└── index.html       # Main entry point
+│   ├── base/        # Base styles
+│   ├── components/  # Component styles
+│   │   ├── badges/  # Badge component styles
+│   └── layout/      # Layout styles
+├── index.html       # Main entry point
+└── style.css        # Main entry point for css
 ```
 ## License 
 
