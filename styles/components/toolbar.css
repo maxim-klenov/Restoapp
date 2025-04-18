@@ -20,12 +20,7 @@
 .toolbar__controls-btn{
   padding: 10px 14px;
   border: 3px solid var(--color-black);
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: transparent;
-  cursor: pointer;
 }
 .toolbar__controls-btn:first-child svg path {
   fill: black;

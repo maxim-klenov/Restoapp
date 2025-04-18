@@ -16,6 +16,7 @@
   justify-content: center;
   border-radius: 16px;
   position: relative;
+  font-size: 0;
 }
 .item__image img {
   width: 100%;
@@ -23,13 +24,15 @@
   border-radius: 16px;
 }
 .item__description {
+  display: grid;
+  row-gap: 4px;
   margin-block: 16px;
 }
 .item__title{
   color: var(--color-black);
   font-family: var(--font-family-600);
   font-size: var(--font-size-18);
-  line-height: var(--lh-24);
+  line-height: 1.2;
 }
 .item__text{
   color: var(--color-text);

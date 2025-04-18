@@ -32,6 +32,7 @@
   font-size: var(--font-size-32);
   line-height: var(--lh-40);
 }
+
 .events .big-item:first-child{
   background-image: url('../../images/events/events-1.webp'), url('../../images/events/events-1.jpg');
 }
@@ -39,6 +40,13 @@
   background-image: url('../../images/events/events-2.webp'), url('../../images/events/events-2.jpg');
 }
 .events__button {
+  width: 100%;
+  height: 56px;
+  padding-inline: 24px;
+  color: var(--color-black);
+  font-family: var(--font-family-600);
+  font-size: var(--font-size-18);
+  line-height: var(--lh-24);
   border: 3px solid var(--color-black);
   background-color: inherit;
 }

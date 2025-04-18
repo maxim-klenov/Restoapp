@@ -2,13 +2,6 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 56px;
-  padding-inline: 24px;
-  border-radius: 16px;
   cursor: pointer;
-  color: var(--color-black);
-  font-family: var(--font-family-600);
-  font-size: var(--font-size-18);
-  line-height: var(--lh-24);
+  border-radius: 16px;
 }

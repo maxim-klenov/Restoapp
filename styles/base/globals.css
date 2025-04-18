@@ -5,3 +5,6 @@ body {
 h1, h2 {
   font-family: var(--font-family-600);
 }
+.item__link {
+  display: inline;
+}
