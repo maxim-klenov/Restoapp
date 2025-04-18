@@ -1,0 +1,25 @@
+.item__composition{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.item__composition[class*="second"] {
+  right: 52px;
+}
+.item__composition.flower {
+  background-color: #1DAA0F;
+}
+.item__composition.fish {
+  background-color: #0094E4;
+}
+.item__composition.papper {
+  background-color: #FC7D04;
+}
+.item__composition svg path {
+  fill: #fff;
+}

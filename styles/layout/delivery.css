@@ -1,0 +1,28 @@
+.delivery{
+  grid-row-start: 1;
+  grid-column: 1 / -1;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-black);
+  padding-left: 5px;
+}
+.delivery-info{
+  letter-spacing: 0.3px;
+  font-family: var(--font-family-600);
+  font-size: var(--font-size-18);
+  line-height: var(--lh-24);
+  color: #ffffff;
+  margin-right: 12px;
+}
+.delivery-btn {
+  display: inline-flex;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delivery-btn svg path:first-child{
+  fill: #393939;
+}
