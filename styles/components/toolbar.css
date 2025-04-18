@@ -1,0 +1,42 @@
+.toolbar__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.toolbar__contact-number {
+  font-size: 1.125rem;
+}
+.toolbar__contact-label {
+  color: var(--color-text);
+  font-family: var(--font-family-400);
+  font-size: var(--font-size-12);
+  line-height: var(--lh-16);
+}
+.toolbar__controls{
+  display: flex;
+  align-items: center;
+}
+.toolbar__controls-btn{
+  padding: 10px 14px;
+  border: 3px solid var(--color-black);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.toolbar__controls-btn:first-child svg path {
+  fill: black;
+}
+.toolbar__controls-btn:first-child{
+  margin-right: 16px;
+  
+}
+.toolbar__controls-btn:last-child{
+  background-color: black;
+}
+.toolbar__controls-btn:last-child svg path {
+  fill: white;
+}

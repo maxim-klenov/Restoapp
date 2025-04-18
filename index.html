@@ -4,24 +4,24 @@
     <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
     <link rel="stylesheet" href="style.css" >
     <title>Resto App</title>
   </head>
   <body>
+    <aside class="delivery">
+      <small class="delivery-info">Бесплатная доставка от 1 000 ₽</small>
+      <button class="delivery-btn" type="button" aria-label="Закрыть объвление">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" fill="#727272"/>
+          <path d="M14.2982 15.3587C14.5911 15.6516 15.0659 15.6516 15.3588 15.3587C15.6517 15.0658 15.6517 14.5909 15.3588 14.298L13.0608 12L15.3588 9.70197C15.6517 9.40908 15.6517 8.9342 15.3588 8.64131C15.0659 8.34842 14.591 8.34842 14.2982 8.64131L12.0001 10.9393L9.70198 8.64118C9.40908 8.34829 8.93421 8.34829 8.64132 8.64118C8.34842 8.93407 8.34842 9.40895 8.64132 9.70184L10.9395 12L8.6413 14.2982C8.34841 14.5911 8.34841 15.0659 8.6413 15.3588C8.93419 15.6517 9.40907 15.6517 9.70196 15.3588L12.0001 13.0607L14.2982 15.3587Z" fill="white"/>
+        </svg>
+      </button>
+    </aside>
     <header class="header">
-      <aside class="header__delivery">
-        <small class="header__delivery-info">Бесплатная доставка от 1 000 ₽</small>
-        <button class="header__delivery-btn" type="button" aria-label="Закрыть объвление">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" fill="#727272"/>
-            <path d="M14.2982 15.3587C14.5911 15.6516 15.0659 15.6516 15.3588 15.3587C15.6517 15.0658 15.6517 14.5909 15.3588 14.298L13.0608 12L15.3588 9.70197C15.6517 9.40908 15.6517 8.9342 15.3588 8.64131C15.0659 8.34842 14.591 8.34842 14.2982 8.64131L12.0001 10.9393L9.70198 8.64118C9.40908 8.34829 8.93421 8.34829 8.64132 8.64118C8.34842 8.93407 8.34842 9.40895 8.64132 9.70184L10.9395 12L8.6413 14.2982C8.34841 14.5911 8.34841 15.0659 8.6413 15.3588C8.93419 15.6517 9.40907 15.6517 9.70196 15.3588L12.0001 13.0607L14.2982 15.3587Z" fill="white"/>
-          </svg>
-        </button>
-      </aside>
       <div class="header__body container">
-        <a class="header__logo" href="/">
-          <img src="icons/logo.svg" alt="restoapp logo" height="22" width="137">
+        <a class="header__logo" href="/" aria-label="Почитать про нашу компанию">
+          <img src="images/logo/logo.svg" alt="логотип компании restoapp" height="22" width="137">
         </a>
         <nav class="nav">
           <ul class="nav__list">
@@ -69,16 +69,11 @@
         </div>
       </div>
     </header>
-
-    
     <main class="content">
       <h1 class="visually-hidden">Ресторан RestoApp</h1>
-
-      
-      <!-- categories -->
       <section class="categories section container">
         <h2 class="section__title">Меню</h2>
-        <ul class="four-items grid">
+        <ul class="grid grid--4-cols">
           <li class="item">
             <a class="overlay" href="/"></a>
             <div class="item__image">
@@ -121,11 +116,9 @@
           </li>
         </ul>
       </section>
-
-      <!-- new meal -->
       <section class="new-meal section container">
         <h2 class="section__title">Новинки</h2>
-        <ul class="four-items grid">
+        <ul class="grid grid--4-cols">
           <li class="item height--min">
             <a class="item__link" href="/"> 
               <div class="item__composition flower">
@@ -206,12 +199,9 @@
           </li>
         </ul>
       </section>
-
-
-      <!-- popular -->
       <section class="popular section container">
         <h2 class="section__title">Популярное</h2>
-        <ul class="four-items grid">
+        <ul class="grid grid--4-cols">
           <li class="item height--min">
             <a class="item__link" href="/">
               <div class="item__image">
@@ -265,7 +255,6 @@
           </li>
           <li class="item height--min">
             <a class="item__link" href="/">
-              
               <div class="item__composition fish">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <title>содержит рыбу</title>
@@ -293,12 +282,9 @@
           </li>
         </ul>
       </section>
-
-      <!-- stocks -->
       <section class="stocks section container">
         <h2 class="section__title">Акции</h2>
-        <ul class="two-items grid">
-
+        <ul class="grid grid--2-cols">
           <li class="big-item">
             <a class="big-item__link" href="/">
               <div class="badge-info" aria-label="Скидка 10% привилегированным клиентам">
@@ -307,7 +293,6 @@
               <h3 class="big-item__name name">Статус «Platina» привилегированным клиентам</h3> 
             </a>
           </li>
-          
           <li class="big-item">
             <a class="big-item__link" href="/">
               <div class="badge-info" aria-label="Скидка 5% при регистрации">
@@ -316,15 +301,11 @@
               <h3 class="big-item__name name">Скидка на все покупки при регистрации</h3> 
             </a>
           </li>
-
         </ul>
       </section>
-
-      <!-- events -->
       <section class="events section container">
         <h2 class="section__title">События</h2>
-        <ul class="two-items grid">
-
+        <ul class="grid grid--2-cols">
           <li class="big-item">
             <a class="big-item__link" href="/">
               <div class="badge-info" aria-label="Stand up 27 января 21:00">
@@ -337,7 +318,6 @@
               <h3 class="big-item__name name">Первый в этом году Stand-Up</h3> 
             </a>
           </li>
-          
           <li class="big-item">
             <a class="big-item__link" href="/">
               <div class="badge-info" aria-label="Скидка 20% на день рождения в «Гастроцех» 21 января">
@@ -350,16 +330,12 @@
               <h3 class="big-item__name name">День рождения в «Гастроцех»</h3> 
             </a>
           </li>
-
         </ul>
         <button class="events__button button" type="button" aria-label="Нажмите, чтобы открыть все события нашего ресторана">Все события</button>
       </section>
-
-      <!-- about us -->
       <section class="about-us section container">
         <h2 class="section__title">Наши заведения</h2>
-        <ul class="two-items grid">
-
+        <ul class="grid grid--2-cols">
           <li class="big-item">
             <a class="big-item__link" href="/">
               <div class="badge-info">
@@ -372,7 +348,6 @@
               <h3 class="big-item__name name">Фудкорт — Кафе «Гастроцех»</h3> 
             </a>
           </li>
-
           <li class="big-item">
             <a class="big-item__link" href="/">
               <div class="badge-info">
@@ -385,7 +360,6 @@
               <h3 class="big-item__name name">«Гастроцех» Пицца</h3> 
             </a>
           </li>
-          
         </ul>
       </section>
     </main>

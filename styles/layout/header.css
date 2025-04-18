@@ -1,0 +1,45 @@
+@import url("../components/container.css");
+@import url("../components/toolbar.css");
+header {
+  background: var(--yellow-color);
+  width: 100%;
+  min-height: 72px;
+}
+header a {
+  line-height: var(--lh-24);
+  font-family: var(--font-family-600);
+  color: var(--color-text);
+}
+header .nav {
+  margin-right: 6px;
+}
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  color: var(--color-black);
+}
+
+.nav__list {
+  column-gap: 24px;
+  display: flex;
+  align-items: center;
+}
+.toolbar__contact-number,
+.nav__list-link {
+  transition: all var(--transition-duration) linear;
+}
+.toolbar__contact-number:hover,
+.nav__list-link:hover {
+  color: rgb(0, 0, 0);
+}
+.header__toolbar {
+  display: flex;
+  column-gap: 64px;
+}
+
