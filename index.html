@@ -4,7 +4,7 @@
     <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon/favicon.ico">
     <link rel="stylesheet" href="style.css" >
     <title>Resto App</title>
   </head>
@@ -20,7 +20,7 @@
     </aside>
     <header class="header">
       <div class="header__body container">
-        <a class="header__logo" href="/" aria-label="Почитать про нашу компанию">
+        <a class="header__logo logo" href="/" aria-label="Почитать про нашу компанию">
           <img src="images/logo/logo.svg" alt="логотип компании restoapp" height="22" width="137">
         </a>
         <nav class="nav">
@@ -43,9 +43,9 @@
           </ul>
         </nav>
         <div class="header__toolbar toolbar">
-          <address class="toolbar__contact">
-            <a class="toolbar__contact-number" href="tel:+01234567890">+0 (123) 456 78-90</a>
-            <p class="toolbar__contact-label">
+          <address class="header__contact contact">
+            <a class="header__number" href="tel:+01234567890">+0 (123) 456 78-90</a>
+            <p class="header__label">
               Прием заказов с
               <time datetime="10:00:00">10:00</time>
               до
@@ -362,6 +362,88 @@
           </li>
         </ul>
       </section>
-    </main>
+    </main> 
+    <footer class="footer">
+      <div class="footer__body container">
+        <div class="footer-group">
+          <address class="footer__contact contact">
+            <a class="footer__number" href="tel:+01234567890">+0 (123) 456 78-90</a>
+            <p class="footer__label">
+              Прием заказов с
+              <time datetime="10:00:00">10:00</time>
+              до
+              <time datetime="22:40:00">22:40</time>
+            </p>
+          </address>
+          <div class="footer__soc1al-links">
+            <a class="footer__soc1al-link" href="/" target="_blank" rel="noopener noreferrer" aria-label="ссылка на телеграм">
+              <img alt="перейти в телеграм" src="images/icons/socials/social-telegram.svg" width="24" height="24">
+            </a>
+            <a class="footer__soc1al-link" href="/" target="_blank" rel="noopener noreferrer" aria-label="ссылка на vk">
+              <img alt="перейти в vk" src="images/icons/socials/social-vk.svg" width="24" height="24">
+            </a>
+            <a class="footer__soc1al-link" href="/" target="_blank" rel="noopener noreferrer" aria-label="ссылка на whatsapp">
+              <img alt="перейти в whatsapp" src="images/icons/socials/social-whatsapp.svg" width="24" height="24">
+            </a>
+          </div>
+        </div> 
+        <div class="footer-group">
+          <a class="footer__logo logo" href="/" aria-label="Почитать про нашу компанию">
+            <img src="images/logo/logo.svg" alt="логотип компании restoapp" height="22" width="137">
+          </a>
+          <nav class="footer__nav nav">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="/">Меню</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="/">Акции</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="/">О нас</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link"  href="/">События</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="/">Зоны доставки</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="store">
+            <a class="store__link" href="/" target="_blank" rel="noopener noreferrer" aria-label="наше приложение">
+              <span>Загрузите в</span>
+              <img alt="app store" src="images/icons/stores/appstore.svg" width="138" height="40">
+            </a>
+            <a class="store__link" href="/" target="_blank" rel="noopener noreferrer" aria-label="наше приложение">
+              <span>Доступно в</span>
+              <img alt="google play" src="images/icons/stores/googleplay.svg" width="138" height="40">
+            </a>
+          </div>
+        </div>
+        <div class="footer__info footer-group">
+          <p>Copyright 2024</p>
+          <div class="footer__info-links">
+            <a href="/">Условия оплаты, получения и возврата</a>
+            <a href="/">Политика обработки персональных данных</a>
+            <a href="/">Согласие на обработку персональных данных</a>
+          </div>
+          <div class="footer__info-cards">
+            <button type="button" class="footer__info-card"aria-label="Оплатить картой">
+              <img alt="visa" src="images/icons/cards/card-visa.svg" width="32" height="21">
+            </button>
+            <button class="footer__info-card" aria-label="Оплатить картой">
+              <img alt="mastercard" src="images/icons/cards/card-mastercard.svg" width="32" height="21">
+            </button>
+            <button class="footer__info-card" aria-label="Оплатить картой">
+              <img alt="мир" src="images/icons/cards/card-mir.svg" width="32" height="21">
+            </button>
+          </div>
+        </div>
+        <hr aria-hidden="true">
+        <a class="footer__info intership-info" href="https://preax.ru/" target="_blank" rel="noopener noreferrer">Проект выполнен в рамках стажировки <u>PREAX</u></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>

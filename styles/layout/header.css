@@ -1,4 +1,6 @@
 @import url("../components/container.css");
+@import url("../components/logo.css");
+@import url("../components/contact.css");
 @import url("../components/toolbar.css");
 .header {
   background: var(--yellow-color);
@@ -17,10 +19,20 @@ header a {
   height: 80px;
   column-gap: 16px;
 }
-.header__logo {
-  display: flex;
-  align-items: center;
-  color: var(--color-black);
+.header__logo img {
+  filter: brightness(0);
+}
+.header__contact {
+  align-items: flex-end;
+}
+.header__number {
+  font-size: 1.125rem;
+}
+.header__label {
+  font-family: var(--font-family-400);
+  color: var(--color-text);
+  font-size: var(--font-size-12);
+  line-height: var(--lh-16);
 }
 
 .nav__list {
@@ -28,11 +40,11 @@ header a {
   display: flex;
   align-items: center;
 }
-.toolbar__contact-number,
+
 .nav__list-link {
   transition: all var(--transition-duration) linear;
 }
-.toolbar__contact-number:hover,
+
 .nav__list-link:hover {
   color: rgb(0, 0, 0);
 }

@@ -58,3 +58,7 @@
   font-size: var(--font-size-18);
   line-height: var(--lh-24);
 }
+
+.about-us {
+  padding-bottom: 64px;
+}

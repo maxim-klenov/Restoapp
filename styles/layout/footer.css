@@ -1,0 +1,130 @@
+@import url("../components/logo.css");
+@import url("../components/store.css");
+.footer {
+  height: 338px;
+  background-color: var(--color-black);
+}
+
+.footer .nav__list-link,
+.footer__number {
+  color: var(--bg-color-btn);
+}
+.footer__body {
+  display: grid;
+  row-gap: 32px;
+  padding: 32px;
+  color: white;
+}
+.footer-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__soc1al-links {
+  display: flex;
+  column-gap: 8px;
+}
+.footer__soc1al-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-social);
+  border-radius: 8px;
+}
+.footer__contact {
+  row-gap: 4px;
+  align-items: flex-start;
+}
+.footer__info,
+.footer__info a {
+  font-size: var(--font-size-14);
+  color: var(--color-footer-text);
+}
+.footer__info-links {
+  display: flex;
+  column-gap: 16px;
+}
+.footer__logo {
+  width: 284px;
+}
+.footer__logo img{
+  filter: brightness(0) invert(1);
+}
+
+.footer__nav {
+  font-family: var(--font-family-600);
+}
+.footer__number {
+  font-family: var(--font-family-600);
+  font-size: var(--font-size-24);
+  line-height: var(--lh-32);
+  transition: var(--transition-duration) ease;
+}
+.footer__nav .nav__list-link:hover,
+.footer__number:hover {
+  color: var(--color-footer-text);
+}
+
+.footer__label {
+  color: var(--color-footer-text);
+  font-size: var(--font-size-14);
+  line-height: var(--lh-20);
+}
+
+.footer hr {
+  margin-block: 0;
+  width: 100%;
+  border-color: var(--color-social);
+}
+
+.footer__info-cards {
+  display: flex;
+  column-gap: 8px;
+}
+
+.footer__info-card {
+  width: 48px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-social);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.store__link {
+  opacity: 0.7;
+  transition: opacity var(--transition-duration) ease;
+}
+
+.store__link:hover {
+  opacity: 1;
+}
+
+.intership-info {
+  display: flex;
+  justify-content: center;
+}
+
+.intership-info u {
+  margin-left: 5px;
+}
+
+.footer__info-links a,
+.intership-info {
+  transition: all var(--transition-duration) ease;
+}
+.footer__info-links a:hover,
+.intership-info:hover {
+  color: var(--bg-color-btn);
+}
+.footer__soc1al-link,
+.footer__info-card {
+  transition: filter var(--transition-duration) ease;
+}
+.footer a:hover img[src*=".svg"]:not(.store__link img) {
+  filter: brightness(100);
+}
