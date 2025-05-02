@@ -26,3 +26,6 @@
 .delivery-btn svg path:first-child{
   fill: #393939;
 }
+.delivery-btn:hover svg path:first-child {
+  fill: black;
+}

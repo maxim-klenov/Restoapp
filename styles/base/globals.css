@@ -7,4 +7,5 @@ h1, h2 {
 }
 .item__link {
   display: inline;
+  border-radius: 16px;
 }

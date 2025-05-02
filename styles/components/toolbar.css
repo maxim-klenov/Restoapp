@@ -6,17 +6,30 @@
   padding: 10px 14px;
   border: 3px solid var(--color-black);
   background-color: transparent;
+  transition: var(--transition-duration) ease;
 }
 .toolbar__controls-btn:first-child svg path {
   fill: black;
 }
 .toolbar__controls-btn:first-child{
   margin-right: 16px;
-  
 }
 .toolbar__controls-btn:last-child{
   background-color: black;
 }
 .toolbar__controls-btn:last-child svg path {
   fill: white;
+}
+
+.toolbar__controls-btn:first-child:hover {
+  background-color: black;
+}
+.toolbar__controls-btn:first-child:hover svg path {
+  fill: white;
+}
+.toolbar__controls-btn:last-child:hover {
+  background-color: transparent;
+}
+.toolbar__controls-btn:last-child:hover svg path {
+  fill: black;
 }

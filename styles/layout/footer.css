@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-inline: 32px;
 }
 .footer__soc1al-links {
   display: flex;
@@ -47,7 +48,7 @@
   column-gap: 16px;
 }
 .footer__logo {
-  width: 284px;
+  margin-right: 147px;
 }
 .footer__logo img{
   filter: brightness(0) invert(1);
@@ -55,6 +56,9 @@
 
 .footer__nav {
   font-family: var(--font-family-600);
+}
+.footer__nav .nav__list {
+  column-gap: 34px;
 }
 .footer__number {
   font-family: var(--font-family-600);
@@ -109,22 +113,24 @@
   justify-content: center;
 }
 
-.intership-info u {
+.intership-info a {
   margin-left: 5px;
+  text-decoration: underline;
 }
 
 .footer__info-links a,
-.intership-info {
+.intership-info a {
   transition: all var(--transition-duration) ease;
 }
-.footer__info-links a:hover,
-.intership-info:hover {
-  color: var(--bg-color-btn);
-}
-.footer__soc1al-link,
-.footer__info-card {
+.footer__soc1al-link img,
+.footer__info-card img {
   transition: filter var(--transition-duration) ease;
 }
-.footer a:hover img[src*=".svg"]:not(.store__link img) {
+.footer .intership-info a:hover,
+.footer__info-links li:hover a {
+  color: #ffffff;
+}
+.footer__soc1al-link:hover img,
+.footer__info-card:hover img {
   filter: brightness(100);
 }
