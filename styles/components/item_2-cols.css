@@ -11,11 +11,17 @@
   background-position: center;
 }
 .stocks .big-item:first-child{
-  background-image: url('../../images/stocks/stocks-1.webp'), url('../../images/stocks/stocks-1.jpg');
+  background-image: image-set(
+    url('../../images/stocks/stocks-1.webp') type("image/webp"),
+    url('../../images/stocks/stocks-1.jpg') type("image/jpeg")
+  );
 }
 
 .stocks .big-item:last-child {
-  background-image: url('../../images/stocks/stocks-2.webp'), url('../../images/stocks/stocks-2.jpg');
+  background-image: image-set(
+    url('../../images/stocks/stocks-2.webp') type("image/webp"),
+    url('../../images/stocks/stocks-2.jpg') type("image/jpeg")
+  );
 }
 .big-item__link{
   position: absolute;
@@ -34,10 +40,16 @@
 }
 
 .events .big-item:first-child{
-  background-image: url('../../images/events/events-1.webp'), url('../../images/events/events-1.jpg');
+  background-image: image-set(
+    url('../../images/events/events-1.webp') type("image/webp"),
+    url('../../images/events/events-1.jpg') type("image/jpeg")
+  );
 }
 .events .big-item:last-child {
-  background-image: url('../../images/events/events-2.webp'), url('../../images/events/events-2.jpg');
+  background-image: image-set(
+    url('../../images/events/events-2.webp') type("image/webp"),
+    url('../../images/events/events-2.jpg') type("image/jpeg")
+  );
 }
 .events__button {
   width: 100%;
@@ -49,10 +61,21 @@
   line-height: var(--lh-24);
   border: 3px solid var(--color-black);
   background-color: inherit;
+  transition: var(--transition-duration) ease;
+}
+.events__button:hover {
+  background-color: black;
+  color: white;
 }
 .about-us .big-item:first-child{
-  background-image: url('../../images/about-us/about-us-1.webp'), url('../../images/about-us/about-us-1.jpg');
+  background-image: image-set(
+    url('../../images/about-us/about-us-1.webp') type("image/webp"),
+    url('../../images/about-us/about-us-1.jpg') type("image/jpeg")
+  );
 }
 .about-us .big-item:last-child {
-  background-image: url('../../images/about-us/about-us-2.webp'), url('../../images/about-us/about-us-2.jpg');
+  background-image: image-set(
+    url('../../images/about-us/about-us-2.webp') type("image/webp"),
+    url('../../images/about-us/about-us-2.jpg') type("image/jpeg")
+  );
 }
