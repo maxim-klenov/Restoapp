@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="description" content="Ресторан свежих блюд, отличной атмосферой и ценами.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="theme-color" content="#FEDD2C">
     <link rel="icon" type="image/x-icon" href="images/icons/favicon/favicon.ico">
-    <link rel="preload" href="fonts/inter-regular.woff" as="font" type="font/woff" crossorigin>
+    <!-- preload fonts -->
     <link rel="preload" href="fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- preload css -->
+    <link rel="stylesheet" href="styles/base/fonts.css">
+    <link rel="stylesheet" href="styles/base/reset.css">
+    <link rel="stylesheet" href="styles/base/globals.css">
+    <!-- rest of css -->
     <link rel="stylesheet" href="style.css" >
     <title>Resto App</title>
     <script src="script.js" defer></script>
@@ -80,7 +86,7 @@
             <div class="item__image">
               <picture>
                 <source srcset="images/menu/pizza.webp" type="image/webp">
-                <img src="images/menu/pizza.jpg" alt="Пицца" width="304" height="304">
+                <img src="images/menu/pizza.jpg" alt="несколько теплых пиц на фоне" width="304" height="304">
               </picture>
             </div>
             <h3 class="name">Пицца</h3>
@@ -90,7 +96,7 @@
             <div class="item__image">
               <picture>
                 <source srcset="images/menu/soups.webp" type="image/webp">
-                <img src="images/menu/soups.jpg" alt="Супы" width="304" height="304">
+                <img src="images/menu/soups.jpg" alt="суп лапша в тарелке" width="304" height="304">
               </picture>
             </div>
             <h3 class="name">Супы</h3>
@@ -100,7 +106,7 @@
             <div class="item__image">
               <picture>
                 <source srcset="images/menu/hot-dishes.webp" type="image/webp">
-                <img src="images/menu/hot-dishes.jpg" alt="Горячие блюда" width="304" height="304">
+                <img src="images/menu/hot-dishes.jpg" alt="мясо с сыром :-)" width="304" height="304">
               </picture>
             </div>
             <h3 class="name">Горячие блюда</h3>
@@ -110,7 +116,7 @@
             <div class="item__image">
               <picture>
                 <source srcset="images/menu/salad.webp" type="image/webp"> 
-                <img src="images/menu/salad.jpg" alt="Салаты" width="304" height="304">
+                <img src="images/menu/salad.jpg" alt="помидорки на тарелке" width="304" height="304">
               </picture>
             </div>
             <h3 class="name">Салаты</h3>
@@ -136,7 +142,7 @@
                 <p class="item__text">Традиционный китайский суп с яйцом и томатами черри</p>
               </hgroup>
             </a>
-            <button class="item__button button button-disabled" type="button" aria-label="добавить в корзину">350&nbsp;₽</button>
+            <button class="item__button button button-disabled" tabindex="-1" type="button" aria-label="добавить в корзину">350&nbsp;₽</button>
           </li>
           <li class="item height--min">
             <a class="item__link" href="/">
@@ -154,7 +160,7 @@
                 <p class="item__text">Традиционное испанское блюдо — рис, колбаски чоризо, куриное бедро, кальмар, кукуруза, горошек, специи</p>
               </hgroup>
             </a>
-            <button class="item__button button button-disabled" type="button" aria-label="добавить в корзину">660&nbsp;₽</button>
+            <button class="item__button button button-disabled" tabindex="-1" type="button" aria-label="добавить в корзину">660&nbsp;₽</button>
           </li>
           <li class="item height--min">
             <a class="item__link" href="/">
@@ -169,7 +175,7 @@
                 <p class="item__text">Блюдо французской кухни — тушёные кусочки говядины с картофелем и болгарским перцем</p>
               </hgroup>
             </a>
-            <button class="item__button button button-disabled" type="button" aria-label="добавить в корзину">630&nbsp;₽</button>
+            <button class="item__button button button-disabled" tabindex="-1" type="button" aria-label="добавить в корзину">630&nbsp;₽</button>
           </li>
           <li class="item height--min">
             <a class="item__link" href="/">
@@ -187,7 +193,7 @@
                 <p class="item__text">Салат из свежих битых огурцов с уйгурским соусом, кешью и кунжутом</p>
               </hgroup>
             </a>
-            <button class="item__button button button-disabled" type="button" aria-label="добавить в корзину">320&nbsp;₽</button>
+            <button class="item__button button button-disabled" tabindex="-1" type="button" aria-label="добавить в корзину">320&nbsp;₽</button>
           </li>
         </ul>
       </section>
@@ -207,7 +213,7 @@
                 <p class="item__text">Просто и вкусно - томатная основа маринара, колбаски пепперони и сыр моцарелла</p>
               </hgroup>
             </a>
-            <button class="item__button button button-disabled" type="button" aria-label="добавить в корзину">660&nbsp;₽</button>
+            <button class="item__button button button-disabled" tabindex="-1" type="button" aria-label="добавить в корзину">660&nbsp;₽</button>
           </li>
           <li class="item height--min">
             <a class="item__link" href="/">
@@ -225,7 +231,7 @@
                 <p class="item__text">Нежная пицца на основе сливочного соуса с сыром горгондзола, грушей, медом и кедровыми орехами</p>
               </hgroup>
             </a>
-            <button class="item__button button button-disabled" type="button" aria-label="добавить в корзину">780&nbsp;₽</button>
+            <button class="item__button button button-disabled" tabindex="-1" type="button" aria-label="добавить в корзину">780&nbsp;₽</button>
           </li>
           <li class="item height--min">
             <a class="item__link" href="/">
@@ -240,7 +246,7 @@
                 <p class="item__text">Вьетнамский суп с рисовой лапшой, в котором используется говядина, свежая зелень и ростки сои. Подают с добавками, такими как мята, долька лайма, острый соус шрирача, азиатский уксус и лаоганма</p>
               </hgroup>
             </a>
-            <button class="item__button button button-disabled" type="button" aria-label="добавить в корзину">490&nbsp;₽</button>
+            <button class="item__button button button-disabled" tabindex="-1" type="button" aria-label="добавить в корзину">490&nbsp;₽</button>
           </li>
           <li class="item height--min">
             <a class="item__link" href="/">
@@ -261,7 +267,7 @@
                 <p class="item__text">Традиционный тайский суп, на основе кокосового молока и сливок, с добавлением креветок, кальмаров, грибов шиитаке и шампиньонов, помидоров черри и свежей зелени. Подается с паровым тайским рисом</p>
               </hgroup>
             </a>
-            <button class="item__button button button-disabled" type="button" aria-label="добавить в корзину">590&nbsp;₽</button>
+            <button class="item__button button button-disabled" tabindex="-1" type="button" aria-label="добавить в корзину">590&nbsp;₽</button>
           </li>
         </ul>
       </section>
@@ -314,7 +320,7 @@
             </a>
           </li>
         </ul>
-        <button class="events__button button" type="button" aria-label="Нажмите, чтобы открыть все события нашего ресторана">Все события</button>
+        <button class="events__button button" tabindex="-1" type="button" aria-label="Нажмите, чтобы открыть все события нашего ресторана">Все события</button>
       </section>
       <section class="about-us section container">
         <h2 class="section__title">Наши заведения</h2>
@@ -422,16 +428,16 @@
             <button type="button" class="footer__info-card" aria-label="Оплатить картой">
               <img alt="visa" src="images/icons/cards/card-visa.svg" width="32" height="21">
             </button>
-            <button class="footer__info-card" aria-label="Оплатить картой">
+            <button type="button" class="footer__info-card" aria-label="Оплатить картой">
               <img alt="mastercard" src="images/icons/cards/card-mastercard.svg" width="32" height="21">
             </button>
-            <button class="footer__info-card" aria-label="Оплатить картой">
+            <button type="button" class="footer__info-card" aria-label="Оплатить картой">
               <img alt="мир" src="images/icons/cards/card-mir.svg" width="32" height="21">
             </button>
           </div>
         </div>
         <hr aria-hidden="true">
-        <span class="footer__info intership-info">Проект выполнен в рамках стажировки <a href="https://preax.ru/" target="_blank" rel="noopener noreferrer">PREAX</a></a>
+        <span class="footer__info intership-info">Проект выполнен в рамках стажировки <a href="https://preax.ru/" target="_blank" rel="noopener noreferrer">PREAX</a></span>
       </div>
     </footer>
   </body>

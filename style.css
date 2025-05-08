@@ -1,6 +1,3 @@
-@import url("styles/base/fonts.css");
-@import url("styles/base/reset.css");
-@import url("styles/base/globals.css");
 @import url("styles/base/variables.css");
 @import url("styles/layout/delivery.css");
 @import url("styles/layout/header.css");
