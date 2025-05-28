@@ -31,10 +31,9 @@ core/
 │   ├── icons/       # SVG assets
 ├── styles/          # CSS modules
 │   ├── base/        # Base styles
-│   ├── components/  # Component styles
-│   │   ├── badges/  # Badge component styles
 │   └── layout/      # Layout styles
 ├── index.html       # Main entry point
+├── script.js        # Javascript code
 └── style.css        # Main entry point for css
 ```
 ## License 
