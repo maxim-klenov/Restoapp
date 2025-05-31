@@ -1,20 +1,20 @@
 .header {
-  background: var(--yellow-color);
   width: 100%;
   min-height: 72px;
+  background: var(--yellow-color);
   transition: all var(--transition-duration) ease;
 }
 header a {
-  line-height: var(--lh-24);
   font-family: var(--font-family-600);
+  line-height: var(--lh-24);
   color: var(--color-text);
 }
 .header__body {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 80px;
+  justify-content: space-between;
   column-gap: 16px;
+  height: 80px;
 }
 .header__logo img {
   filter: brightness(0);
@@ -31,15 +31,15 @@ header a {
 }
 .header__label {
   font-family: var(--font-family-400);
-  color: var(--color-text);
   font-size: var(--font-size-12);
   line-height: var(--lh-16);
+  color: var(--color-text);
 }
 
 .nav__list {
-  column-gap: 24px;
   display: flex;
   align-items: center;
+  column-gap: 24px;
 }
 
 .nav__list-link {
@@ -60,23 +60,23 @@ header a {
   justify-content: center;
 }
 
-.toolbar__controls{
+.toolbar__controls {
   display: flex;
   align-items: center;
 }
-.toolbar__controls-btn{
+.toolbar__controls-btn {
   padding: 10px 14px;
-  border: 3px solid var(--color-black);
   background-color: transparent;
+  border: 3px solid var(--color-black);
   transition: var(--transition-duration) ease;
 }
 .toolbar__controls-btn:first-child svg path {
   fill: black;
 }
-.toolbar__controls-btn:first-child{
+.toolbar__controls-btn:first-child {
   margin-right: 16px;
 }
-.toolbar__controls-btn:last-child{
+.toolbar__controls-btn:last-child {
   background-color: black;
 }
 .toolbar__controls-btn:last-child svg path {
