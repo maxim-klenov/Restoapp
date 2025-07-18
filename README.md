@@ -55,7 +55,7 @@ To Vadim Malych from an interesting internship project https://preax.ru
     <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
   </a>
   
-  <a href="https://t.me/tgxzz" target="_blank">
+  <a href="https://t.me/maxklenov" target="_blank">
     <img src=https://img.shields.io/badge/telegram-%231E77B5.svg?&style=for-the-badge&logo=telegram&logoColor=white alt=telegram style="margin-bottom: 5px;" />
   </a> 
   </div>
